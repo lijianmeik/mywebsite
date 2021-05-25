@@ -1,0 +1,308 @@
+/* article部分開始 */
+
+header {
+    position: relative;
+}
+
+article {
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    width: 80%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+article .text-left {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    width: 25%;
+    height: 66%;
+    background-color: #fff;
+}
+
+article .text-left img {
+    width: 100%;
+    height: 100%;
+    /* border: #fff solid 2px; */
+}
+
+article .text-right {
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    width: 50%;
+    height: 75%;
+}
+
+article .text-right i {
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    color: #fff;
+    margin: 0 auto;
+}
+
+article .text-right h1 {
+    text-align: center;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+article .text-right table {
+    width: 100%;
+    height: 92%;
+}
+
+article .text-right tr {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    font-size: large;
+    color: #fff;
+}
+
+
+/* article部分終わり */
+
+
+/* section start */
+
+section {
+    height: 568px;
+}
+
+.section-right {
+    width: 50%;
+    height: 568px;
+    background-color: #fff;
+}
+
+.section-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-right video {
+    margin-top: 58px;
+}
+
+.section-left {
+    width: 48%;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.section-left h3 {
+    font-weight: 600;
+    color: black;
+    margin: 20px 20px 0 82px;
+    font-size: 26px;
+}
+
+.section-left i {
+    margin-left: 10px;
+    color: rgb(50, 54, 83);
+}
+
+.section-left p {
+    font-size: large;
+    font-family: 600;
+    color: black;
+    padding: 0 20px;
+    line-height: 45px;
+}
+
+.section-left a {
+    width: 20%;
+    height: 50px;
+    float: right;
+    margin-right: 30px;
+    background-color: rgba(0, 0, 0, 0.6)!important;
+    border: none!important;
+    font-size: large;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    line-height: 50px;
+}
+
+.section-left .btn:hover {
+    padding: 6px 6px;
+    color: rgb(50, 54, 83);
+}
+
+
+/* section end*/
+
+
+/* footer start */
+
+footer {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(50, 54, 83);
+}
+
+footer .top {
+    position: relative;
+    height: 60px;
+    padding-top: 20px;
+}
+
+footer .top h1 {
+    position: absolute;
+    top: 30%;
+    left: 46%;
+    width: 120px;
+    height: 39px;
+    text-align: center;
+    color: #fff;
+}
+
+footer .top i {
+    color: #fff;
+    position: absolute;
+    top: 68%;
+    left: 40%;
+}
+
+.bottom {
+    height: 496px;
+    background-color: rgb(50, 54, 83);
+}
+
+.bottom-left,
+.bottom-right {
+    width: 50%;
+    height: 100%;
+}
+
+.bottom-left img {
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.bottom-right {
+    position: relative;
+}
+
+.bottom-right .top i {
+    position: absolute;
+    top: -10%;
+    left: 35%;
+    font-size: 30px;
+    color: #fff;
+    margin: 50px 50px;
+    color: rgb(255, 228, 74);
+}
+
+.bottom-right .top h2 {
+    color: #fff;
+    font-size: 29px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bottom-right .top p {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 10px;
+    padding: 12px 180px;
+}
+
+.bottom-right .top i:nth-child(3) {
+    position: absolute;
+    top: 76%;
+    left: 11%;
+    color: #fff;
+}
+
+.bottom-right .top i:nth-child(5) {
+    position: absolute;
+    top: 150%;
+    left: 11%;
+    color: #fff;
+}
+
+.bottom-right .top a {
+    position: absolute;
+    top: 328%;
+    left: 60%;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none!important;
+    font-size: large;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+body .bottom-right .top a:hover {
+    padding: 6px 6px!important;
+}
+
+.bottom-right h3 {
+    position: absolute;
+    top: 78%;
+    left: 8%;
+    color: #fff;
+    font-size: 26px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 78%;
+    left: 33%;
+    width: 60%;
+    height: 60px;
+}
+
+.wrapper ul li {
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.contace .wrapper a img {
+    width: 45px;
+    height: 45px;
+}
+
+.contace .wrapper a img:hover {
+    width: 60px;
+    height: 60px;
+    transition: all 0.5s ease 0s;
+}
+
+.contace .wrapper ul li:first-child:hover {
+    content: url(../images/14.jpg);
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease 0s;
+}
+
+.contace .wrapper ul li:nth-last-child(2):hover {
+    content: url(../images/13.jpg);
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease 0s;
+}
+
+.contace .wrapper ul li:last-child:checked {
+    cursor: default;
+    width: 60px;
+    height: 60px;
+}
+
+
+/* footer end */

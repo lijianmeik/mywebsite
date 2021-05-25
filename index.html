@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="iconfont/font_2382836_jauphtuvg4p/iconfont.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- <a id="_top"></a> -->
+</head>
+
+<body>
+    <div class="w">
+        <!-- header start -->
+        <header>
+
+            <nav>
+                <div class="w">
+                    <div class="logo fl">
+                        <hi>
+                            <a href="index.html">LIJIANMEI</a>
+                        </hi>
+                    </div>
+                    <ul class="fr">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutme.html">ABOUT ME</a></li>
+                        <li><a href="ican.html">I CAN</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <article>
+                <div class="text-left fl">
+                    <img src="images/1.jpg" alt="">
+                </div>
+                <div class="text-right fr">
+                    <h1>MY PROFILE</h1>
+                    <i class="android iconfont icon-biaoti1"></i>
+                    <table>
+                        <tr>
+                            <th>ふりがな</th>
+                            <td>り　けんめい</td>
+                        </tr>
+                        <tr>
+                            <th>名前</th>
+                            <td>李　建梅</td>
+                        </tr>
+                        <tr>
+                            <th>生年月日</th>
+                            <td>1990年3月13日</td>
+                        </tr>
+                        <tr>
+                            <th>性別</th>
+                            <td>女</td>
+                        </tr>
+                        <tr>
+                            <th>メールアドレス</th>
+                            <td>k852754@yahoo.com</td>
+                        </tr>
+                        <tr>
+                            <th>住所</th>
+                            <td>東京都練馬区氷川台3-29-1-203</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+        </header>
+        <!-- header end -->
+        <!-- section start -->
+        <section class="w">
+            <div class="section-right fr">
+                <video width="750" height="450" controls autoplay muted> 
+                    <source src="images/1.mp4" type="video/mp4"> 
+                   <source src="images/1.mp4" type="video/ogg"> 
+                    <source src="images/1.mp4" type="video/web"> 
+                    <object data="images/1.mp4" width="320" height="240">   
+                        <embed src="images/1.mp4" width="320" height="240"> 
+                    </object>
+                </video>
+            </div>
+            <div class="section-left fl">
+                <h3>ABOUT ME</h3>
+                <i class="android iconfont icon-biaoti1"></i>
+                <p>&nbsp&nbspこんにちは、私は李建梅です。中国から来ました。出身校は関西大学の総合情報学部です。私は積極的に行動し､成長する向上心があります。日本に留学するため､2014年まで貯金して､日本に留学して来ました。その時､留学料金を払って､お金がほとんど残らなかったため､日本でアルバイトをしながら､日本の大学の学歴を取得しました。色々苦労しましたが、日本で生活する中で中国では出来ない様々な経験ができ､人間として大きく成長できました。私は自分の意志によって自分の人生を選択する､学びながら仕事をこなす事で成長して､ゆくゆくは企業を引っ張る存在として活躍したいと考えています。
+                </p>
+                <a href="aboutme.html" class="btn btn-primary btn-lg active" role="button">more</a>
+            </div>
+
+        </section>
+        <!-- section end -->
+        <!-- footer start -->
+        <footer>
+            <div class="top w">
+                <h1>I CAN</h1>
+                <i class="android iconfont icon-biaoti1"></i>
+            </div>
+            <div class="bottom w">
+                <div class="bottom-left fl">
+                    <img src="images/12.jpg" alt="">
+                </div>
+                <div class="bottom-right fr">
+                    <div class="top">
+                        <i class="android iconfont icon-zhengshu"></i>
+                        <h2>資格</h2>
+                        <i class="android iconfont icon-bi"></i>
+                        <p>日本語能力試験N1</p>
+                        <i class="android iconfont icon-bi"></i>
+                        <p>日商簿記試験3級</p>
+                        <a href="ican.html" class="btn btn-primary btn-lg active fr" role="button">more</a>
+                    </div>
+                    <div class="contace">
+                        <h3>Contact me:</h3>
+                        <div class="wrapper">
+                            <ul>
+                                <li>
+                                    <a href="#"><img class="qrcode" src="images/line.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img class="qrcode" src="images/we-chat.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/jianmei.li.754"><img class="qrcode" src="images/icon-facebook.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+        <div class="footer">
+
+            <i class="android iconfont icon-wangye1">2021 My Resume.All right reserved | url:https://lijianmeik.github.io/mywebsite/</i>
+            <div id="to-top">TOP</div>
+        </div>
+        <script>
+            onload = function() {
+                const _Height = document.documentElement.clientHeight;
+                const Box = document.getElementsByClassName('box');
+
+                // for (var i = 0; i < Box.length; i++) {
+                //     Box[i].style.height = _Height + 'px'
+                //     Box[i].style.lineHeight = _Height + 'px'
+                // }
+
+                document.querySelector('#to-top').onclick = function(el) {
+                    document.body.scrollTop = document.documentElement.scrollTop = 0;
+                }
+            }
+        </script>
+
+
+
+    </div>
+</body>
+
+</html>

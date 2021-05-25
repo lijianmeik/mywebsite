@@ -1,0 +1,154 @@
+header {
+    position: relative;
+}
+
+
+/* article start */
+
+article {
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    width: 80%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+article .text-left {
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    width: 40%;
+    height: 77%;
+    background-color: #fff;
+}
+
+article .text-left img {
+    width: 100%;
+    height: 100%;
+}
+
+article .text-right {
+    position: absolute;
+    top: 13%;
+    right: -1%;
+    width: 50%;
+    height: 75%;
+}
+
+article .text-right i {
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    color: #fff;
+    margin: 0 auto;
+}
+
+article .text-right h1 {
+    position: absolute;
+    left: 12%;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+article .text-right table {
+    position: absolute;
+    top: 13%;
+    width: 100%;
+    height: 92%;
+}
+
+article .text-right th {
+    width: 158px;
+    padding-right: 39px;
+}
+
+article .text-right tr {
+    width: 100%;
+    height: 15%;
+    text-align: left;
+    font-size: large;
+    color: #fff;
+}
+
+
+/* article end */
+
+
+/* section start */
+
+section {
+    position: relative;
+    height: 760px;
+}
+
+section h1 {
+    text-align: center;
+    color: rgb(50, 54, 83);
+    font-weight: 600;
+    padding: 39px 0 10px 0;
+    font-size: 30px;
+}
+
+section .icon-biaoti1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: rgb(50, 54, 83);
+}
+
+section .wrapper {
+    position: absolute;
+    top: 14%;
+    width: 100%;
+    height: 88%;
+}
+
+section .wrapper img {
+    position: absolute;
+    left: 12%;
+    width: 80%;
+    height: 100%;
+}
+
+
+/* section end */
+
+
+/* footer start */
+
+footer {
+    position: relative;
+    height: 628px;
+    background-color: rgb(35, 13, 86);
+}
+
+footer .w h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding: 39px 0 10px 0;
+    font-size: 30px;
+}
+
+footer .w .icon-biaoti1 {
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    color: #fff;
+}
+
+footer .wrapper {
+    position: absolute;
+    top: 18%;
+    width: 80%;
+    height: 80%;
+}
+
+footer .w .wrapper img {
+    position: absolute;
+    left: 24.5%;
+    width: 80%;
+    height: 100%;
+}

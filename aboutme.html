@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href="iconfont/font_2382836_jauphtuvg4p/iconfont.css">
+</head>
+
+<body>
+    <div class="w">
+        <header>
+            <nav>
+                <div class="w">
+                    <div class="logo fl">
+                        <hi>
+                            <a href="index.html">LIJIANMEI</a>
+                        </hi>
+                    </div>
+                    <ul class="fr">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutme.html">ABOUT ME</a></li>
+                        <li><a href="ican.html">I CAN</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <article>
+                <div class="text-left fl">
+                    <img src="images/５.png" alt="">
+                </div>
+                <div class="text-right fr">
+                    <h1>ABOUT ME</h1>
+                    <i class="android iconfont icon-biaoti1"></i>
+                    <table>
+
+                        <tr>
+                            <th>名前</th>
+                            <td>李　建梅</td>
+                        </tr>
+                        <tr>
+                            <th>配偶者</th>
+                            <td>有り</td>
+                        </tr>
+                        <tr>
+                            <th>配偶者の扶養義務</th>
+                            <td>なし</td>
+                        </tr>
+                        <tr>
+                            <th>子供</th>
+                            <td>有り(2歳)</td>
+                        </tr>
+                        <tr>
+                            <th>子供の面倒</th>
+                            <td>中国でお爺さんとお婆さんが見ています。
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>趣味</th>
+                            <td>アニメ鑑賞、ホームページ制作、映像制作</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </article>
+        </header>
+        <section class="w">
+            <h1>Education</h1>
+            <i class="android iconfont icon-biaoti1"></i>
+            <div class="wrapper">
+                <img src="images/3.png" alt="">
+            </div>
+        </section>
+        <footer>
+            <div class="w">
+                <h1>Work Experience</h1>
+                <i class="android iconfont icon-biaoti1"></i>
+                <div class="wrapper">
+                    <img src="images/19.jpg" alt="">
+                </div>
+
+            </div>
+        </footer>
+        <div class="footer">
+            <i class="android iconfont icon-wangye1">2021 My Resume.All right reserved | url:https://lijianmeik.github.io/mywebsite/</i>
+            <div id="to-top">TOP</div>
+        </div>
+        <script>
+            onload = function() {
+                const _Height = document.documentElement.clientHeight;
+                const Box = document.getElementsByClassName('box');
+
+                // for (var i = 0; i < Box.length; i++) {
+                //     Box[i].style.height = _Height + 'px'
+                //     Box[i].style.lineHeight = _Height + 'px'
+                // }
+
+                document.querySelector('#to-top').onclick = function(el) {
+                    document.body.scrollTop = document.documentElement.scrollTop = 0;
+                }
+            }
+        </script>
+    </div>
+</body>
+
+</html>
